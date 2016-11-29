@@ -88,14 +88,14 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Illum
+          name: _MetallicGlossMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _MetallicGlossMap
+          name: _Illum
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -163,21 +163,21 @@ Material:
         second: 15
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _EmissionLM
         second: 0
       data:
         first:
           name: _DynamicEmissionLM
         second: 0
-      data:
-        first:
-          name: _Metallic
-        second: 0
     m_Colors:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0.10658614, g: 3.0905101, b: 0, a: 3.0905104}
+        second: {r: 0.1034646, g: 3, b: 0, a: 1}
       data:
         first:
           name: _Color
