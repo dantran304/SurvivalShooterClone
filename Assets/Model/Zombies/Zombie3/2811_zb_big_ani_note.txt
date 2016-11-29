@@ -1,0 +1,8 @@
+30fps
+ zb_big_ani:
+	- Idle		1 - 49
+	- Special		51 - 105
+	- Walk		107 - 149
+	- Attack		151 - 187
+	- Damaged	189 - 203
+	- Die 		205 - 300

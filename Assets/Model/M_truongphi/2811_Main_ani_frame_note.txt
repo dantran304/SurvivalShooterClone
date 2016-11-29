@@ -1,0 +1,48 @@
+30fps
+1. Main_shotgun_ani:
+	- Idle		1 - 39
+	- Run		41 - 69
+	- Run+Shoot	71 - 99
+	- Shoot		101 - 129
+	- Damaged	131 - 145
+	- Die 		147 - 300
+
+2. Main_uzi_ani:
+	- Idle		1 - 39
+	- Run		41 - 69
+	- Run+Shoot	71 - 99
+	- Shoot		101 - 129
+	- Damaged	131 - 143
+	- Die 		145 - 300
+
+3. Main_soclo_ani:
+	- Idle		1 - 49
+	- Run		51 - 79
+	- Run+Shoot	81 - 109
+	- Shoot		111 - 121
+	- Damaged	123 - 131
+	- Die 		133 - 200
+
+4. Main_AK_ani:
+	- Idle		1 - 49
+	- Run		51 - 79
+	- Run+Shoot	81 - 109
+	- Shoot		111 - 123
+	- Damaged	125 - 133
+	- Die 		135 - 250
+
+5. Main_6nong_ani:
+	- Idle		1 - 49
+	- Run		51 - 79
+	- Shoot		81 - 111
+	- Walk+Shoot	113 - 149
+	- Damaged	151 - 161
+	- Die 		163 - 250
+
+6. Main_laze_ani:
+	- Idle		1 - 49
+	- Run		51 - 79
+	- Shoot		81 - 99
+	- Damaged	101 - 111
+	- Die1 		113 - 199
+	- Die2		201 - 300

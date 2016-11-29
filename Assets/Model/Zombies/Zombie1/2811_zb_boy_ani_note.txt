@@ -1,0 +1,7 @@
+30fps
+ zb_boy_ani:
+	- Idle		1 - 49
+	- Walk		51 - 99
+	- Attack		101 - 129
+	- Damaged	131 - 145
+	- Die 		147 - 250
