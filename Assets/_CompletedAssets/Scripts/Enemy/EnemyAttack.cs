@@ -34,6 +34,7 @@ namespace CompleteProject
             {
                 // ... the player is in range.
                 playerInRange = true;
+                anim.Play("Attack");
             }
         }
 
@@ -45,6 +46,7 @@ namespace CompleteProject
             {
                 // ... the player is no longer in range.
                 playerInRange = false;
+                anim.Play("Walk");
             }
         }
 

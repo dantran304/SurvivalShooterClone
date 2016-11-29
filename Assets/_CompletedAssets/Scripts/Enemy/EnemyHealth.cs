@@ -35,11 +35,11 @@ namespace CompleteProject
         void Update ()
         {
             // If the enemy should be sinking...
-            if(isSinking)
-            {
-                // ... move the enemy down by the sinkSpeed per second.
-                transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
-            }
+            //if(isSinking)
+            //{
+            //    // ... move the enemy down by the sinkSpeed per second.
+            //    transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
+            //}
         }
 
 
@@ -49,6 +49,9 @@ namespace CompleteProject
             if(isDead)
                 // ... no need to take damage so exit the function.
                 return;
+
+
+            anim.Play("Hit");
 
             // Play the hurt sound effect.
             enemyAudio.Play ();
@@ -85,6 +88,8 @@ namespace CompleteProject
             // Change the audio clip of the audio source to the death clip and play it (this will stop the hurt clip playing).
             enemyAudio.clip = deathClip;
             enemyAudio.Play ();
+
+            StartSinking();
         }
 
 
