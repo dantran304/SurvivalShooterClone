@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 079442b3982036b49915d7c2165a66c4
+timeCreated: 1481045130
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chan
+    100004: coaochoang
+    100006: kinh
+    100008: laze:laze
+    100010: mat
+    100012: mu
+    100014: quanvu_geo
+    100016: quanvu_riged_1211:ctrl_hong
+    100018: quanvu_riged_1211:ctrl_tong
+    100020: quanvu_riged_1211:joint_banchan_P
+    100022: quanvu_riged_1211:joint_banchan_T
+    100024: quanvu_riged_1211:joint_bung
+    100026: quanvu_riged_1211:joint_cangchan_P
+    100028: quanvu_riged_1211:joint_cangchan_T
+    100030: quanvu_riged_1211:joint_co
+    100032: quanvu_riged_1211:joint_coao_1
+    100034: quanvu_riged_1211:joint_coao_2
+    100036: quanvu_riged_1211:joint_dau
+    100038: quanvu_riged_1211:joint_dinhdau
+    100040: quanvu_riged_1211:joint_dui_P
+    100042: quanvu_riged_1211:joint_dui_T
+    100044: quanvu_riged_1211:joint_hong
+    100046: quanvu_riged_1211:joint_khuyutay_P
+    100048: quanvu_riged_1211:joint_khuyutay_T
+    100050: quanvu_riged_1211:joint_muichan_P_1
+    100052: quanvu_riged_1211:joint_muichan_P_2
+    100054: quanvu_riged_1211:joint_muichan_T_1
+    100056: quanvu_riged_1211:joint_muichan_T_2
+    100058: quanvu_riged_1211:joint_ngoncai_P_1
+    100060: quanvu_riged_1211:joint_ngoncai_P_2
+    100062: quanvu_riged_1211:joint_ngoncai_P_3
+    100064: quanvu_riged_1211:joint_ngoncai_T_1
+    100066: quanvu_riged_1211:joint_ngoncai_T_2
+    100068: quanvu_riged_1211:joint_ngoncai_T_3
+    100070: quanvu_riged_1211:joint_ngongiua_P_1
+    100072: quanvu_riged_1211:joint_ngongiua_P_2
+    100074: quanvu_riged_1211:joint_ngongiua_P_3
+    100076: quanvu_riged_1211:joint_ngongiua_T_1
+    100078: quanvu_riged_1211:joint_ngongiua_T_2
+    100080: quanvu_riged_1211:joint_ngongiua_T_3
+    100082: quanvu_riged_1211:joint_ngonut_P_1
+    100084: quanvu_riged_1211:joint_ngonut_P_2
+    100086: quanvu_riged_1211:joint_ngonut_P_3
+    100088: quanvu_riged_1211:joint_ngonut_T_1
+    100090: quanvu_riged_1211:joint_ngonut_T_2
+    100092: quanvu_riged_1211:joint_ngonut_T_3
+    100094: quanvu_riged_1211:joint_nguc
+    100096: quanvu_riged_1211:joint_rau_1
+    100098: quanvu_riged_1211:joint_rau_2
+    100100: quanvu_riged_1211:joint_rau_3
+    100102: quanvu_riged_1211:joint_tay_P
+    100104: quanvu_riged_1211:joint_tay_T
+    100106: quanvu_riged_1211:joint_toc_P
+    100108: quanvu_riged_1211:joint_toc_T
+    100110: quanvu_riged_1211:joint_uc
+    100112: quanvu_riged_1211:joint_vai_P
+    100114: quanvu_riged_1211:joint_vai_T
+    100116: rau
+    100118: than
+    100120: tocphai
+    100122: toctrai
+    100124: tui
+    400000: //RootNode
+    400002: chan
+    400004: coaochoang
+    400006: kinh
+    400008: laze:laze
+    400010: mat
+    400012: mu
+    400014: quanvu_geo
+    400016: quanvu_riged_1211:ctrl_hong
+    400018: quanvu_riged_1211:ctrl_tong
+    400020: quanvu_riged_1211:joint_banchan_P
+    400022: quanvu_riged_1211:joint_banchan_T
+    400024: quanvu_riged_1211:joint_bung
+    400026: quanvu_riged_1211:joint_cangchan_P
+    400028: quanvu_riged_1211:joint_cangchan_T
+    400030: quanvu_riged_1211:joint_co
+    400032: quanvu_riged_1211:joint_coao_1
+    400034: quanvu_riged_1211:joint_coao_2
+    400036: quanvu_riged_1211:joint_dau
+    400038: quanvu_riged_1211:joint_dinhdau
+    400040: quanvu_riged_1211:joint_dui_P
+    400042: quanvu_riged_1211:joint_dui_T
+    400044: quanvu_riged_1211:joint_hong
+    400046: quanvu_riged_1211:joint_khuyutay_P
+    400048: quanvu_riged_1211:joint_khuyutay_T
+    400050: quanvu_riged_1211:joint_muichan_P_1
+    400052: quanvu_riged_1211:joint_muichan_P_2
+    400054: quanvu_riged_1211:joint_muichan_T_1
+    400056: quanvu_riged_1211:joint_muichan_T_2
+    400058: quanvu_riged_1211:joint_ngoncai_P_1
+    400060: quanvu_riged_1211:joint_ngoncai_P_2
+    400062: quanvu_riged_1211:joint_ngoncai_P_3
+    400064: quanvu_riged_1211:joint_ngoncai_T_1
+    400066: quanvu_riged_1211:joint_ngoncai_T_2
+    400068: quanvu_riged_1211:joint_ngoncai_T_3
+    400070: quanvu_riged_1211:joint_ngongiua_P_1
+    400072: quanvu_riged_1211:joint_ngongiua_P_2
+    400074: quanvu_riged_1211:joint_ngongiua_P_3
+    400076: quanvu_riged_1211:joint_ngongiua_T_1
+    400078: quanvu_riged_1211:joint_ngongiua_T_2
+    400080: quanvu_riged_1211:joint_ngongiua_T_3
+    400082: quanvu_riged_1211:joint_ngonut_P_1
+    400084: quanvu_riged_1211:joint_ngonut_P_2
+    400086: quanvu_riged_1211:joint_ngonut_P_3
+    400088: quanvu_riged_1211:joint_ngonut_T_1
+    400090: quanvu_riged_1211:joint_ngonut_T_2
+    400092: quanvu_riged_1211:joint_ngonut_T_3
+    400094: quanvu_riged_1211:joint_nguc
+    400096: quanvu_riged_1211:joint_rau_1
+    400098: quanvu_riged_1211:joint_rau_2
+    400100: quanvu_riged_1211:joint_rau_3
+    400102: quanvu_riged_1211:joint_tay_P
+    400104: quanvu_riged_1211:joint_tay_T
+    400106: quanvu_riged_1211:joint_toc_P
+    400108: quanvu_riged_1211:joint_toc_T
+    400110: quanvu_riged_1211:joint_uc
+    400112: quanvu_riged_1211:joint_vai_P
+    400114: quanvu_riged_1211:joint_vai_T
+    400116: rau
+    400118: than
+    400120: tocphai
+    400122: toctrai
+    400124: tui
+    2300000: laze:laze
+    3300000: laze:laze
+    4300000: laze:laze
+    4300002: coaochoang
+    4300004: chan
+    4300006: than
+    4300008: tui
+    4300010: mat
+    4300012: mu
+    4300014: rau
+    4300016: kinh
+    4300018: toctrai
+    4300020: tocphai
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: chan
+    13700002: coaochoang
+    13700004: kinh
+    13700006: mat
+    13700008: mu
+    13700010: rau
+    13700012: than
+    13700014: tocphai
+    13700016: toctrai
+    13700018: tui
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
