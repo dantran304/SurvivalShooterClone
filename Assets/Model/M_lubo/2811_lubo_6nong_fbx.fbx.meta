@@ -195,6 +195,12 @@ ModelImporter:
     4300026: ocvit_R
     4300028: tuiduoi
     7400000: Take 001
+    7400002: Idle
+    7400004: Run
+    7400006: RunShoot
+    7400008: Shoot
+    7400010: Hit
+    7400012: Dead
     9500000: //RootNode
     13700000: body
     13700002: chan
@@ -229,7 +235,1393 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RunShoot
+      takeName: Take 001
+      firstFrame: 99
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 151
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Dead
+      takeName: Take 001
+      firstFrame: 163
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:ctrl_hong/_lubo_6nong_ani:ctrl_bung/_lubo_6nong_ani:ctrl_uc/_lubo_6nong_ani:ctrl_vai_P/_lubo_6nong_ani:ctrl_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_dinhdau
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_P_1/_lubo_6nong_ani:joint_toc_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toc_T_1/_lubo_6nong_ani:joint_toc_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_P_/_lubo_6nong_ani:joint_tocgay_P_1/_lubo_6nong_ani:joint_tocgay_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocgay_T_/_lubo_6nong_ani:joint_tocgay_T_1/_lubo_6nong_ani:joint_tocgay_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_P_/_lubo_6nong_ani:joint_tocmai_P_1/_lubo_6nong_ani:joint_tocmai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_tocmai_T_/_lubo_6nong_ani:joint_tocmai_T_1/_lubo_6nong_ani:joint_tocmai_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_co/_lubo_6nong_ani:joint_dau/_lubo_6nong_ani:joint_toctruoc_/_lubo_6nong_ani:joint_toctruoc_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngoncai_P_1/_lubo_6nong_ani:joint_ngoncai_P_2/_lubo_6nong_ani:joint_ngoncai_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngongiua_P_1/_lubo_6nong_ani:joint_ngongiua_P_2/_lubo_6nong_ani:joint_ngongiua_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_P/_lubo_6nong_ani:joint_khuyutay_P/_lubo_6nong_ani:joint_tay_P/_lubo_6nong_ani:joint_ngonut_P_1/_lubo_6nong_ani:joint_ngonut_P_2/_lubo_6nong_ani:joint_ngonut_P_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngoncai_T1/_lubo_6nong_ani:joint_ngoncai_T2/_lubo_6nong_ani:joint_ngoncai_T3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngongiua_T_1/_lubo_6nong_ani:joint_ngongiua_T_2/_lubo_6nong_ani:joint_ngongiua_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_bung/_lubo_6nong_ani:joint_uc/_lubo_6nong_ani:joint_nguc/_lubo_6nong_ani:joint_vai_T/_lubo_6nong_ani:joint_khuyutay_T/_lubo_6nong_ani:joint_tay_T/_lubo_6nong_ani:joint_ngonut_T_1/_lubo_6nong_ani:joint_ngonut_T_2/_lubo_6nong_ani:joint_ngonut_T_3
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_P/_lubo_6nong_ani:joint_cangchan_P/_lubo_6nong_ani:joint_banchan_P/_lubo_6nong_ani:joint_muichan_P_1/_lubo_6nong_ani:joint_muichan_P_2
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1
+        weight: 1
+      - path: _lubo_6nong_ani:ctrl_tong/_lubo_6nong_ani:joint_hong/_lubo_6nong_ani:joint_dui_T/_lubo_6nong_ani:joint_cangchan_T/_lubo_6nong_ani:joint_banchan_T/_lubo_6nong_ani:joint_muichan_T_1/_lubo_6nong_ani:joint_muichan_T_2
+        weight: 1
+      - path: _lubo_6nong_ani:saunong
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:nongsung
+        weight: 1
+      - path: _lubo_6nong_ani:saunong/_lubo_6nong_ani:thansung
+        weight: 1
+      - path: lubo_model
+        weight: 1
+      - path: lubo_model/body
+        weight: 1
+      - path: lubo_model/chan
+        weight: 1
+      - path: lubo_model/face
+        weight: 1
+      - path: lubo_model/hair
+        weight: 1
+      - path: lubo_model/khandau
+        weight: 1
+      - path: lubo_model/kinh
+        weight: 1
+      - path: lubo_model/ocvit_L
+        weight: 1
+      - path: lubo_model/ocvit_R
+        weight: 1
+      - path: lubo_model/tainghe
+        weight: 1
+      - path: lubo_model/tuidan3
+        weight: 1
+      - path: lubo_model/tuiduoi
+        weight: 1
+      - path: lubo_model/vaiphai
+        weight: 1
+      - path: lubo_model/vaitrai
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
